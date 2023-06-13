@@ -4,7 +4,7 @@ from setuptools import setup
 from codecs import open
 from os import path
 
-VERSION = "6.0.7"
+VERSION = "7.0.0"
 DESCRIPTION = " Remove your comment history on Reddit as deleting an account does not do so."
 
 here = path.abspath(path.dirname(__file__))
@@ -26,7 +26,7 @@ setup(
                  "Programming Language :: Python"],
     license="FreeBSD License",
     packages=["shreddit"],
-    install_requires=["arrow", "backports-abc", "praw>=4", "PyYAML", "requests", "six", "tornado"],
+    install_requires=["arrow", "backports-abc", "praw", "PyYAML", "requests", "six", "tornado"],
     package_data={"shreddit": ["*.example"]},
     entry_points={
         "console_scripts": [

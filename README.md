@@ -60,9 +60,9 @@ client ID and secret, follow these steps (taken from
 2. Add a new application. It doesn't matter what it's named, but calling it "shreddit" makes it easier to remember.
 3. Select "script".
 4. Redirect URL does not matter for script applications, so enter something like http://127.0.0.1:8080
-5. Once created, you should see the name of your application followed by 14 character string. Enter this 14 character
+5. Once created, you should see the name of your application followed by 22 character string. Enter this 22 character
    string as your `client_id`.
-6. Copy the 27 character "secret" string into the `client_secret` field.
+6. Copy the 30 character "secret" string into the `client_secret` field.
 
 Finally, your praw.ini should look like this (with fake data provided here):
 
